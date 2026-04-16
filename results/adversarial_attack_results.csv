@@ -1,0 +1,10 @@
+Model,Attack,Intensity_Eps,Baseline_Accuracy,Adversarial_Accuracy,ASR
+Logistic Regression,FGSM,0.05,0.95,0.95,0.0
+Logistic Regression,FGSM,0.1,0.95,0.94,1.0526315789473695
+Logistic Regression,FGSM,0.2,0.95,0.87,8.421052631578943
+Random Forest,HopSkipJump,0.05,0.98,0.02,97.95918367346938
+Random Forest,HopSkipJump,0.1,0.98,0.02,97.95918367346938
+Random Forest,HopSkipJump,0.2,0.98,0.02,97.95918367346938
+SVM (RBF),HopSkipJump,0.05,0.97,0.56,42.268041237113394
+SVM (RBF),HopSkipJump,0.1,0.97,0.56,42.268041237113394
+SVM (RBF),HopSkipJump,0.2,0.97,0.56,42.268041237113394
